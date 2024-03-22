@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "admin",
+    "database": "HumanR",
+    "port":"5431",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "admin",
+    "password": "admin",
+    "database": "Human",
+    "port":"5431",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

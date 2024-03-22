@@ -1,0 +1,45 @@
+# version : "3.8"
+ 
+# services:
+#   pg_db_production:
+#     image: postgres:latest
+#     ports:
+#       - 5431:5432
+ 
+#   pg_db_development:
+#     image: postgres:latest
+#     container_name: pg_db_dev
+#     volumes:
+#       - ./data/data:/var/lib/postgresql/data
+#     environment:
+#       POSTGRES_USER: admin
+#       POSTGRES_PASSWORD: admin
+#       # POSTGRES_DB: inventory-test
+#     ports:
+#       - "5433:5432"
+ 
+#   pg_db_test:
+#     image: postgres:latest
+#     container_name: pg_db_test
+#     volumes:
+#       - ./data/data:/var/lib/postgresql/data
+#     environment:
+#       POSTGRES_USER: admin
+#       POSTGRES_PASSWORD: admin
+#       # POSTGRES_DB: inventory-test
+#     ports:
+#       - "5434:5432"
+
+
+# # version: '3.8'
+
+# # services:
+# #   db_product:
+# #     image: postgres:latest
+# #     container_name: db_product
+# #     environment:
+# #       POSTGRES_USER: admin
+# #       POSTGRES_PASSWORD: admin
+# #       # POSTGRES_DB: your_database_name
+# #     ports:
+# #       - "5432:5432"

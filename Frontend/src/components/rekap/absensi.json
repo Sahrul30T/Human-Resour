@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "tanggal": "2022-03-01",
+      "waktuMasuk": "08:00",
+      "waktuKeluar": "17:00",
+      "izin": false,
+      "sakit": false
+    },
+    {
+      "id": 2,
+      "tanggal": "2022-03-02",
+      "waktuMasuk": "08:30",
+      "waktuKeluar": "17:30",
+      "izin": true,
+      "sakit": false
+    },
+    {
+      "id": 3,
+      "tanggal": "2022-03-03",
+      "waktuMasuk": "09:00",
+      "waktuKeluar": "18:00",
+      "izin": false,
+      "sakit": true
+    }
+  ]
+  
